@@ -99,6 +99,7 @@ li {
   z-index: 9999;
   flex-flow: column;
   overflow-y: scroll;
+  padding-bottom: 10px;
 }
 /* style the hamburger icon */
 .main-header-container i {
@@ -120,6 +121,8 @@ header {
   background-color: #002b36;
   color: white;
   width: 93%;
+  /* keep the search results list on screen */
+  max-height: 54vh;
   justify-content: flex-end;
   text-align: left;
   margin: 0 3px;
