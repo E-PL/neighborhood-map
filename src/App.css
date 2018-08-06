@@ -98,7 +98,6 @@ li {
   opacity: 0.9;
   z-index: 9999;
   flex-flow: column;
-  overflow-y: scroll;
   padding-bottom: 10px;
 }
 /* style the hamburger icon */
@@ -123,6 +122,7 @@ header {
   width: 93%;
   /* keep the search results list on screen */
   max-height: 54vh;
+  overflow-y: scroll;
   justify-content: flex-end;
   text-align: left;
   margin: 0 3px;
