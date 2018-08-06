@@ -17,7 +17,7 @@ class Footer extends Component {
    */
   render() {
     return (
-      <footer className="footer">
+      <footer className="footer" role="contentinfo">
         
         <p className="footer-text">Locations data and images by <a className="footer-link" href="https://www.wikipedia.org">WikiPedia</a></p>
         
