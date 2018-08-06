@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Genoa wiki map">
+  <!-- title -->
+  <title>Genoa wiki map</title>
+  <!-- manifest -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <!-- font awesome -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <noscript>
+    Enable Javascript to run this app
+  </noscript>
+  <script>
+   function gm_authFailure() {
+    const gm_confirm = window.confirm("Google API Error ! Reload page?");
+        if (gm_confirm === true) {
+          // retry
+          location.reload();
+        }
+}
+  </script>
+  <main id="root"></main>
+</body>
+
+</html>

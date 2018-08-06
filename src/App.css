@@ -1,0 +1,203 @@
+/* page layout */
+html {
+  height: 100vh;
+  width: 100vw;
+}
+/* add margins to body, set styles */
+body {
+  min-height: 100%;
+  width: 92vw;
+  margin: auto;
+  background-color: #073642;
+}
+/* disable lists bullet points */
+li {
+  list-style-type: none;
+}
+/* set font-size on p tags */
+p {
+  font-size: 16px;
+}
+/* add margins on container, set min-height */
+.container {
+  width: 98%;
+  margin: auto;
+  min-height: 99vh;
+}
+/* style the main title container */
+.main-header-container {
+  width: 100%;
+  background-color: #073642;
+}
+
+/* stile text */
+.main-header {
+  color: #268bd2;
+  font-size: 22px;
+  text-align: right;
+  padding: 15px;
+}
+/* set full width and min height on map container */
+.map-container {
+  min-height: 460px;
+  width: 100%;
+}
+/* set styles for the station details */
+.station-details {
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  color: #839496;
+  font-size: 20px;
+}
+/* set styles for the station details list */
+.stations-list {
+  display: flex;
+  flex-flow: row;
+  list-style-type: none;
+}
+/* add padding to list items */
+.stations-list p,
+li {
+  padding: 3px;
+}
+/* style select buttons */
+.select-button,
+.select-buttonList {
+  font-family: "Roboto Mono", monospace;
+  background-color: #859900;
+  border-radius: 15px;
+}
+/* style close button */
+.close-button {
+  font-family: "Roboto Mono", monospace;
+  background-color: #859900;
+  border-radius: 5px;
+  width: 100%;
+}
+/* change button colors on hover */
+.select-button:hover,
+.close-button:hover,
+.selectbutton-list:hover {
+  background-color: #1c1e88;
+}
+/* stile the title of the station info  */
+.station-heading {
+  margin: 10px;
+  color: #b58900;
+}
+/* style the nav */
+.search {
+  display: flex;
+  width: 250px;
+  min-height: 460px;
+  position: absolute;
+  top: 46px;
+  background-color: #002b36;
+  opacity: 0.9;
+  z-index: 9999;
+  flex-flow: column;
+  overflow-y: scroll;
+}
+/* style the hamburger icon */
+.main-header-container i {
+  font-size: 40px;
+  margin: 10px;
+  color: #859900;
+}
+/* set flex on header */
+header {
+  display: flex;
+}
+/* style the search result list */
+.search-result {
+  width: 98%;
+  margin: 3px;
+}
+/* style the search results */
+.search-results {
+  background-color: #002b36;
+  color: white;
+  width: 93%;
+  justify-content: flex-end;
+  text-align: left;
+  margin: 0 3px;
+  padding: 5px;
+}
+/* hovered links change color */
+.results-link:hover {
+  background-color: black;
+}
+/* style links */
+.results-link {
+  width: 100%;
+  display: flex;
+}
+/* style the search input */
+#nav input {
+  padding: 3px;
+  min-height: 40px;
+  height: 40px;
+  width: 86%;
+  margin: 30px 9px;
+  font-family: "Roboto Mono", monospace;
+}
+/* adjust filter label position */
+.filter-form {
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+}
+.filter i {
+  font-size: 40px;
+  margin: 35px 5px;
+  color: #fff;
+}
+/* set background color and min-height on wrapper */
+.nav-map-wrapper {
+  min-height: 80vh;
+  background-color: #002b36;
+}
+/* set color on data text */
+.meteo-data {
+  color: #268bd2;
+}
+/* style skip links */
+.skip-link {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  position: absolute;
+  left: -2000px;
+}
+/* show skip links on focus */
+.skip-link:focus,
+.skip-link:active {
+  position: relative;
+  left: 0;
+}
+/* set footer width and background color */
+.footer {
+  width: 100%;
+  background-color: #073642;
+  text-align: center;
+}
+/* style footer text */
+.footer-heading {
+  color: #268bd2;
+  font-size: 19px;
+  text-align: center;
+  padding: 15px;
+}
+footer {
+  color: #268bd2;
+  font-size: 16px;
+}
+.footer-link {
+  color: #268bd2;
+  font-size: 16px;
+}
+/* dimention the image from wikipedia */
+.location-image {
+  max-width: 100%;
+}
